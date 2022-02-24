@@ -3,5 +3,9 @@ import 'package:kartal/kartal.dart';
 
 class CardShadow extends BoxShadow {
   CardShadow(BuildContext context)
-      : super(color: context.colorScheme.primaryContainer, offset: const Offset(0, 8), blurRadius: 15, spreadRadius: 0);
+      : super(
+            color: context.colorScheme.primary,
+            offset: const Offset(0, 8),
+            blurRadius: 15,
+            spreadRadius: 0);
 }
